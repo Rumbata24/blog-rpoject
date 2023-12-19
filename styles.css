@@ -24,11 +24,17 @@ html {
 .top-header {
   display: flex;
   justify-content: space-between;
-  background-color: rgba(223, 198, 203, 0.4);
+  background-color: rgb(241, 228, 231);
   align-items: center;
   padding: 1.3em 1.5em;
-  box-shadow: 0 0 0 100vmax rgba(223, 198, 203, 0.4);
-  clip-path: inset(0 -100vmax);
+  /* box-shadow: 0 0 0 100vmax rgb(241, 228, 231);
+  clip-path: inset(0 -100vmax); */
+
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  width: 100%;
 }
 
 .top-header-left-side ul {
@@ -96,6 +102,8 @@ header {
   margin: 3em 1em;
   text-transform: uppercase;
   letter-spacing: 1.2px;
+
+  margin-top: 10em;
 }
 
 .main-header-logo-container-left-side .logo {
@@ -829,6 +837,10 @@ footer {
 
   .middle-footer-container {
     padding: 2em 0;
+  }
+
+  header {
+    margin-top: 2em;
   }
 }
 
