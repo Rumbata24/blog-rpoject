@@ -141,7 +141,7 @@ header {
 
 #dropdown-products {
   z-index: 99;
-
+  line-height: 2;
   position: absolute;
   padding: 0.5em;
   width: 250px;
