@@ -302,7 +302,7 @@ header {
 }
 
 .up-to-date {
-  background-image: url("/client/images/apenas-detalhes-fundo-quadro-inicio-1-scaled.jpg");
+  background-image: url("./images/apenas-detalhes-fundo-quadro-inicio-1-scaled.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

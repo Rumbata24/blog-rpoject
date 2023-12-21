@@ -331,19 +331,19 @@ main .image-wrapper .slide img {
 }
 
 .background1 {
-  background: url("/client/images/apenas-detalhes-categoria-inicio-1.jpg");
+  background: url("./images/apenas-detalhes-categoria-inicio-1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .background2 {
-  background: url("/client/images/apenas-detalhes-categoria-inicio-2.jpg");
+  background: url("./images/apenas-detalhes-categoria-inicio-2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .background3 {
-  background: url("/client/images/apenas-detalhes-categoria-inicio-3.jpg");
+  background: url("./images/apenas-detalhes-categoria-inicio-3.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -536,7 +536,7 @@ main .image-wrapper .slide img {
   flex: 50%;
   height: 100vh;
   width: 100%;
-  background-image: url("/client/images/apenas-detalhes-fundo-quadro-inicio-1-scaled.jpg");
+  background-image: url("./images/apenas-detalhes-fundo-quadro-inicio-1-scaled.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
