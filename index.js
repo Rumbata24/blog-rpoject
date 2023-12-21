@@ -72,8 +72,8 @@ let img_slider = document.querySelector("#img-slider"); // thats a div in this d
 let changer_img = document.querySelector(".changer-img"); // thats a div in this div there is an image
 
 let slides = [
-  "/client/images/apenas-detalhes-planejamento-inicio-2-scaled.jpg",
-  "/client/images/apenas-detalhes-planejamento-inicio-3-scaled.jpg",
+  "./images/apenas-detalhes-planejamento-inicio-2-scaled.jpg",
+  "./images/apenas-detalhes-planejamento-inicio-3-scaled.jpg",
 ];
 
 let start = 0;
