@@ -12,6 +12,9 @@ html {
   font-size: 62.5%;
 }
 
+body {
+}
+
 .wrapper {
   max-width: 1870px;
   margin: 0 auto;
@@ -236,6 +239,116 @@ header {
 
 /* Who we are */
 
+.who-we-are-section {
+  max-width: 1172px;
+  margin: 135px auto;
+
+  padding: 0 2em;
+}
+
+.wraper-who-we-are {
+  display: flex;
+  width: 100%;
+  gap: 10em;
+
+  align-items: center;
+}
+
+.left-side-who-we-are {
+  width: 543px;
+  height: 908px;
+  flex: 1;
+}
+
+.right-side-who-we-are {
+  flex: 1;
+}
+
+.right-side-who-we-are h1 {
+  font-family: "Spectral", serif;
+  font-weight: lighter;
+  font-size: 5.5rem;
+}
+
+.right-side-who-we-are p {
+  font-size: 1.5rem;
+  margin: 2.5em 0;
+}
+
+.left-side-who-we-are img {
+  max-width: 100%;
+}
+
+.who-we-are-button-container {
+  width: 100%;
+  margin-top: 5em;
+  transform: scale(1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.who-we-are-button-container:hover {
+  transform: scale(1.05);
+}
+
+.who-we-are-btn {
+  text-decoration: none;
+  width: 269px;
+  height: 55px;
+  padding: 18px 55px;
+  color: black;
+  border: 1px solid black;
+  font-size: 1.2rem;
+  border-radius: 50px;
+}
+
+.up-to-date {
+  background-image: url("/client/images/apenas-detalhes-fundo-quadro-inicio-1-scaled.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.up-to-date-container {
+  color: white;
+  max-width: 1348px;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.up-to-date-container h1 {
+  font-size: 5.5rem;
+  font-family: "Spectral", serif;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 1;
+  max-width: 55%;
+}
+
+.up-to-date-btn {
+  margin-top: 5em;
+
+  background-color: white;
+  color: rgba(20, 20, 20, 0.8);
+  padding: 20px 55px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.up-to-date-btn:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+}
 /* 
 .
 .
@@ -394,5 +507,46 @@ footer {
   }
   .contact-us-section p {
     line-height: 1.6;
+  }
+
+  /* Who we are */
+
+  .who-we-are-section {
+    margin: 100px auto;
+  }
+
+  .wraper-who-we-are {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .left-side-who-we-are {
+    max-width: 100%;
+  }
+
+  .right-side-who-we-are {
+    max-width: 100%;
+  }
+
+  .who-we-are-button-container {
+    width: 100%;
+    margin-top: 5em;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .up-to-date-container {
+    padding: 0 2em;
+  }
+  .up-to-date-container h1 {
+    font-size: 4.5rem;
+
+    max-width: 80%;
+  }
+
+  .up-to-date-btn {
+    margin-top: 2em;
+
+    padding: 20px 55px;
   }
 }
